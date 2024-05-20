@@ -3,8 +3,6 @@ import pandas as pd
 df = pd.read_excel('Data_230406_small.xlsx', sheet_name='Data 1')
 
 
-%%time
-
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
