@@ -3,7 +3,7 @@ import pandas as pd
 df = pd.read_excel('Data_230406_small.xlsx', sheet_name='Data 1')
 
 
-%%time
+
 from sklearn.model_selection import train_test_split
 
 from sklearn.metrics import mean_squared_error
